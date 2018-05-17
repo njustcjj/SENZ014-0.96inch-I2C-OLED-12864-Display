@@ -1,39 +1,39 @@
-# SENZ014-0.96inch-I2C-OLED-12864-Display
+# SENZ014 0.96寸 I2C OLED 12864 显示屏
 
-###### Translation
+###### 翻译
 
-> For `English`, please click [`here.`](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/README.md)
+> `英文` 请参考 [`这里`](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/README.md)
 
-> For `Chinese`, please click [`here.`](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/README_CN.md)
+> `中文` 请参考 [`这里`](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/README_CN.md)
 
-![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014.jpg "SENZ014")
+![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ013.jpg "SENZ014")
+ 
 
+### 产品介绍
 
-### Introduction
-
-> SENZ014 OLED 12864 display is a self-luminous display module with a blue background. The display areas is 0.96”and uses an IC SSD1306 chip. The OLED screen supports I2C communication and refresh rates of up to 60Hz.
-
-> An OLED (organic light-emitting diode) has many advantages over traditional LCD displays, including a faster response speed, thinner profile, lower power consumption and excellent shock resistance. An OLED can be widely used in mobile devices for display applications. Used in conjunction with a mini Arduino-based microcontroller such as the Beetle or CurieNano, it is a straightforward process to make a simple wearable application.
-
-
-### Specification
-
-- Operating Voltage: +3V ~ 5V
-- Background Color: blue
-- Pixels: 128 columns × 64 row
-- Interface mode: I2C
-- Scanning Rate: 60 frames per second
-- FOV: > 160°
-- Full screen power consumption: 80mA
-- Working Temperature: -30 ℃ ~ +70 ℃
-- Display Area: 0.85* 0.43 inches
-- Module Size: 1.07 * 1.09 inches
-- Mounting Hole size: Φ 20mm
+> SENZ014 OLED显示屏是一款无需背景光源，自发光式的显示模块。模块采用蓝色背景，显示尺寸控制在0.96英寸，采用OLED专用驱动芯片SSD1306控制。该模块支持通过I2C接口与控制器通信，支持高传输速率，能够实现60Hz的刷新频率。
+> 
+> OLED又称作有机发光二极管，相比传统的LCD，OLED具备更快的响应速度和更轻薄的体积优势，屏幕厚度可以小于1毫米，仅为LCD屏幕的1/3左右。并且功耗更低，抗震性好，可以广泛应用于移动设备的显示应用上。
 
 
-### Tutorial
+### 产品参数
 
-#### Wire Definition
+- 工作电压：+3 ~ 5V
+- 显示颜色：蓝色
+- 像素个数：128列 x 64行
+- 接口方式：I2C
+- 刷屏速率：60fps
+- FOV：> 160°
+- 全屏点亮功耗：80mA
+- 工作温度：-30 ~ +70℃
+- 显示面积：21.744 x 10.864mm
+- 模块尺寸：27.3 x 27.8 x 3.7mm
+- 安装孔尺寸：Φ 20mm
+
+
+### 使用教程
+
+#### 引脚定义
 
 |Sensor pin|Ardunio Pin|Function Description|
 |-|:-:|-|
@@ -46,17 +46,20 @@
 |CS|GND|Chip selection|
 
 
-![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014_pin.jpg "Pin Definition") 
-
-#### Connecting Diagram
-
-![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014_connect.png "Connecting Diagram") 
-
-##### Download the library
-- Download Arduino U8glib library [`here`](hettp://)
+![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014_pin.jpg "引脚定义") 
 
 
-#### Sample Code
+#### 连线图
+
+![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014_connect.png "连线图") 
+
+
+#### 支持的库文件
+1. 通用U8glib库文件，点击[`下载`](http://)
+2. Arduino 101适用的U8g2 Library库文件，点击[`查阅`]（https://github.com/olikraus/u8g2/wiki/u8g2reference）
+
+
+### 示例代码
 
 
 	//本程序实现了一个字符串向左移动，向右移动，向下称动，向上移动，在同一个位置显示一个ASCII字符
@@ -283,4 +286,4 @@
 	}
 
 
-### Purchasing [*SENZ014 0.96inch I2C OLED 12864 Display*](https://www.ebay.com/).
+### 购买[*SENZ014 0.96寸 I2C OLED 12864 显示屏*](https://www.ebay.com/).
