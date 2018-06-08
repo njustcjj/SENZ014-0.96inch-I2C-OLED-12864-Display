@@ -33,7 +33,7 @@
 
 ### Tutorial
 
-#### Wire Definition
+#### Pin Definition
 
 |Sensor pin|Ardunio Pin|Function Description|
 |-|:-:|-|

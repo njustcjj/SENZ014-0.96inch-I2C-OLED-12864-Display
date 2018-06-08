@@ -6,7 +6,7 @@
 
 > `中文` 请参考 [`这里`](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/README_CN.md)
 
-![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ013.jpg "SENZ014")
+![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014.jpg "SENZ014")
  
 
 ### 产品介绍
