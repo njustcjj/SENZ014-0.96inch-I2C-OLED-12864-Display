@@ -39,11 +39,11 @@
 |-|:-:|-|
 |VCC|+3~5V|Power|
 |GND|GND||
-|D0|A5|Clock|
-|D1|A4|Data|
-|RES|5V|Reset|
-|DC|GND|Data/Command|
-|CS|GND|Chip selection|
+|D0|Digital pin|Clock|
+|D1|Digital pin|Data, MOSI|
+|RES|Digital pin|Reset|
+|DC|Digital pin|Data/Command, A0|
+|CS|Digital pin|Chip selection|
 
 
 ![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014_pin.jpg "引脚定义") 
@@ -65,7 +65,12 @@
 	//本程序实现了一个字符串向左移动，向右移动，向下称动，向上移动，在同一个位置显示一个ASCII字符
 	//将各个函数改写使之通用化
 	#include "U8glib.h"
-	U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE);        // HW SPI Com: CS = 10, A0 = 9 (Hardware Pins are  SCK = 13 and MOSI = 11)
+
+	U8GLIB_SSD1306_128X64 u8g(10, 9, 3);              
+	/* 
+	HW SPI Com: CS = 10, A0 = 9, RST = 3 (Hardware Pins are  SCK = 13 and MOSI = 11)
+	*/
+
 	char str1[]="HW SPI Com: CS = 10, A0 = 9 ";
 	char str2[]="HW SPI Com: CS = 10, A0 = 9 (Hardware Pins are  SCK = 13 and MOSI = 11)";
  
