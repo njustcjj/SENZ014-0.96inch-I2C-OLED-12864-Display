@@ -6,7 +6,8 @@
 
 > `中文` 请参考 [`这里`](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/README_CN.md)
 
-![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014.jpg "SENZ014")
+![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014.jpg "SENZ014_Front")
+![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014.jpg "SENZ014_Back")
  
 
 ### 产品介绍
@@ -52,10 +53,11 @@
 #### 连线图
 
 ![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014_connect.png "连线图") 
-
+See sample code:
+>VCC = 3.3V, GND =GND, CS = 10, DC = 9, RES = 3,  D0 = 13 and D1 = 11
 
 #### 支持的库文件
-1. 通用U8glib库文件，点击[`下载`](http://)
+1. 通用U8glib库文件，点击[`下载`](https://bintray.com/olikraus/u8glib/download_file?file_path=u8glib_arduino_v1.18.1.zip)
 2. Arduino 101适用的U8g2 Library库文件，点击[`查阅`]（https://github.com/olikraus/u8g2/wiki/u8g2reference）
 
 

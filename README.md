@@ -7,6 +7,7 @@
 > For `Chinese`, please click [`here.`](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/README_CN.md)
 
 ![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014.jpg "SENZ014")
+![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014.jpg "SENZ014_Back")
 
 
 ### Introduction
@@ -51,9 +52,11 @@
 #### Connecting Diagram
 
 ![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014_connect.png "Connecting Diagram") 
+See sample code:
+>VCC = 3.3V, GND =GND, CS = 10, DC = 9, RES = 3,  D0 = 13 and D1 = 11
 
 ##### Download the library
-- Download Arduino U8glib library [`here`](hettp://)
+- Download Arduino U8glib library [`here`](https://bintray.com/olikraus/u8glib/download_file?file_path=u8glib_arduino_v1.18.1.zip)
 
 
 #### Sample Code
