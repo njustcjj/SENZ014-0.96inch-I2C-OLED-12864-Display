@@ -20,7 +20,7 @@
 ### Specification
 
 - Operating Voltage: +3V ~ 5V
-- Background Color: blue
+- Background Color: Black
 - Pixels: 128 columns × 64 row
 - Interface mode: I2C
 - Scanning Rate: 60 frames per second
