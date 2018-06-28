@@ -58,7 +58,7 @@ See sample code:
 
 #### 支持的库文件
 1. 通用U8glib库文件，点击[`下载`](https://bintray.com/olikraus/u8glib/download_file?file_path=u8glib_arduino_v1.18.1.zip)
-2. Arduino 101适用的U8g2 Library库文件，点击[`查阅`]（https://github.com/olikraus/u8g2/wiki/u8g2reference）
+2. Arduino 101适用的U8g2 Library库文件，点击[`查阅`](http://github.com/olikraus/u8g2/wiki/u8g2reference)
 
 
 ### 示例代码
