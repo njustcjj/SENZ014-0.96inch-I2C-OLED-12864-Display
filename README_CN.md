@@ -6,8 +6,8 @@
 
 > `中文` 请参考 [`这里`](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/README_CN.md)
 
-![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014.jpg "SENZ014_Front")
-![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014.jpg "SENZ014_Back")
+![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014_front.jpg "SENZ014_Front")
+![](https://github.com/njustcjj/SENZ014-0.96inch-I2C-OLED-12864-Display/blob/master/pic/SENZ014_back.jpg "SENZ014_Back")
  
 
 ### 产品介绍
